@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/home/maulik/Android/OCR/ocr/Application/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png",
-        "source": "/home/maulik/Android/OCR/ocr/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
-    },
-    {
         "merged": "/home/maulik/Android/OCR/ocr/Application/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png",
         "source": "/home/maulik/Android/OCR/ocr/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "/home/maulik/Android/OCR/ocr/Application/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "/home/maulik/Android/OCR/ocr/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
         "merged": "/home/maulik/Android/OCR/ocr/Application/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png",

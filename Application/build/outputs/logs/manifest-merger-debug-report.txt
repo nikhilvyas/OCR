@@ -9,6 +9,10 @@ uses-permission#android.permission.CAMERA
 ADDED from /home/maulik/Android/OCR/ocr/Application/src/main/AndroidManifest.xml:21:5-65
 	android:name
 		ADDED from /home/maulik/Android/OCR/ocr/Application/src/main/AndroidManifest.xml:21:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /home/maulik/Android/OCR/ocr/Application/src/main/AndroidManifest.xml:22:5-71
+	android:name
+		ADDED from /home/maulik/Android/OCR/ocr/Application/src/main/AndroidManifest.xml:22:22-68
 uses-feature#android.hardware.camera
 ADDED from /home/maulik/Android/OCR/ocr/Application/src/main/AndroidManifest.xml:23:5-60
 	android:name

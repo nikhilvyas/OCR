@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/maulik/Android/OCR/ocr/Application/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="767fde9a7a677abd36dd40b84b964df662d4e20b">
+        <dex dex="/home/maulik/Android/OCR/ocr/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_11f66ad2cfa7e16f66863fe5ad7f2f1e6d558b8b/classes.dex" />
+    </item>
+    <item
+        jar="/home/maulik/Android/OCR/ocr/Application/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/libs/internal_impl-24.1.1.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="/home/maulik/Android/OCR/ocr/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.1.1_9109f2dabb6612b66bf6612c0158c9e4ce82870d/classes.dex" />
+    </item>
+    <item
+        jar="/home/maulik/Android/OCR/ocr/Application/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
+        <dex dex="/home/maulik/Android/OCR/ocr/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.1.1_5749a95462cf347e3b78600eb7faa0ac5802c4f6/classes.dex" />
+    </item>
+    <item
+        jar="/home/maulik/Android/OCR/ocr/Application/build/intermediates/exploded-aar/com.android.support/support-v13/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="327f68d58bb39fb8b585150596b313541f8fdb87">
+        <dex dex="/home/maulik/Android/OCR/ocr/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v13-24.1.1_b892da550d20bcb1f8313b5fdf8ddf35743d36e4/classes.dex" />
+    </item>
+    <item
+        jar="/home/maulik/Android/OCR/ocr/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="/home/maulik/Android/OCR/ocr/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.1.1_10e4612e723de66416c715ba44c010f773361577/classes.dex" />
+    </item>
+    <item
+        jar="/home/maulik/Android/OCR/ocr/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="4add8aa95c9f4e9a2ad64b7e2bf08e97e28955c1">
+        <dex dex="/home/maulik/Android/OCR/ocr/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-24.1.1_588167092c8539ac76177b836dc464b2cdfc4e59/classes.dex" />
+    </item>
+    <item
+        jar="/home/maulik/Android/OCR/ocr/Application/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="8acff40d184c7144e3e0781033df10db390ea9a2">
+        <dex dex="/home/maulik/Android/OCR/ocr/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_d573400bc00024dc7c26adce14c0f0f4d7669140/classes.dex" />
+    </item>
+    <item
+        jar="/home/maulik/Android/OCR/ocr/Application/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="/home/maulik/Android/OCR/ocr/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.1.1_2f8957db04d11b749b4bcf517fa541805724fa71/classes.dex" />
+    </item>
+    <item
+        jar="/home/maulik/Android/OCR/ocr/Application/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="/home/maulik/Android/OCR/ocr/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.1.1_4947bf79eed831ff2eaf23bc2ac447d6a7faf2b8/classes.dex" />
+    </item>
+    <item
+        jar="/home/maulik/Android/OCR/ocr/Application/build/intermediates/exploded-aar/com.android.support/support-v13/24.1.1/jars/libs/internal_impl-24.1.1.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="ca74722504f90166103d01edcdfdb93192eb1cba">
+        <dex dex="/home/maulik/Android/OCR/ocr/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.1.1_8ed98d75a4276eaa604838196a81aa460699a09e/classes.dex" />
+    </item>
+    <item
+        jar="/home/maulik/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/24.1.1/3af19f153122737b372622fa6c81dd11a1c6b999/support-annotations-24.1.1.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="/home/maulik/Android/OCR/ocr/Application/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.1.1_5447f4ed483eca2216317645b6e32666402fc997/classes.dex" />
+    </item>
+
+</items>

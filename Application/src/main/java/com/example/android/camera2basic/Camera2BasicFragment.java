@@ -24,6 +24,7 @@ import android.app.DialogFragment;
 import android.app.Fragment;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.res.Configuration;
 import android.graphics.ImageFormat;
@@ -46,6 +47,7 @@ import android.media.ImageReader;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.HandlerThread;
+import android.speech.RecognizerIntent;
 import android.support.annotation.NonNull;
 import android.support.v13.app.FragmentCompat;
 import android.support.v4.content.ContextCompat;
@@ -80,6 +82,7 @@ public class Camera2BasicFragment extends Fragment
     private static final SparseIntArray ORIENTATIONS = new SparseIntArray();
     private static final int REQUEST_CAMERA_PERMISSION = 1;
     private static final String FRAGMENT_DIALOG = "dialog";
+
 
     static {
         ORIENTATIONS.append(Surface.ROTATION_0, 90);
@@ -127,6 +130,11 @@ public class Camera2BasicFragment extends Fragment
      * Max preview height that is guaranteed by Camera2 API
      */
     private static final int MAX_PREVIEW_HEIGHT = 1080;
+
+    /**
+     * Request code for Voice Command
+     */
+    private static final int VOICE_COMMAND = 9999;
 
     /**
      * {@link TextureView.SurfaceTextureListener} handles several lifecycle events on a
@@ -883,11 +891,24 @@ public class Camera2BasicFragment extends Fragment
         }
     }
 
+
+    @Override
+    public void onActivityResult(int requestCode, int ResultCode, Intent data){
+        if(requestCode == VOICE_COMMAND /*&& ResultCode == RESULT_OK*/){
+            ArrayList<String> results = data.getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
+            showToast(results.get(0));
+        }
+    }
+
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.picture: {
-                takePicture();
+//                takePicture();
+                Intent i = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
+                i.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL,RecognizerIntent.LANGUAGE_MODEL_FREE_FORM);
+                i.putExtra(RecognizerIntent.EXTRA_PROMPT,"Waiting for command");
+                startActivityForResult(i, VOICE_COMMAND);
                 break;
             }
             case R.id.info: {
@@ -1032,3 +1053,4 @@ public class Camera2BasicFragment extends Fragment
     }
 
 }
+

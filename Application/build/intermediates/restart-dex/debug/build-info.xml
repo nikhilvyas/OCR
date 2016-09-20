@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="22"
+    density="xxhdpi"
+    format="7"
+    timestamp="4428928416804"
+    token="5878290508832108652" >
+
+    <task
+        name="javac"
+        duration="2746" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="566" />
+    <task
+        name="verifier"
+        duration="17" />
+
+    <artifact
+        location="/home/maulik/Android/OCR/ocr/Application/build/outputs/apk/Application-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="4428928416804" >
+        <artifact
+            location="/home/maulik/Android/OCR/ocr/Application/build/outputs/apk/Application-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

@@ -437,6 +437,7 @@ public class Camera2BasicFragment extends Fragment
                              Bundle savedInstanceState) {
         sr = SpeechRecognizer.createSpeechRecognizer(getActivity());
         sr.setRecognitionListener(new listener());
+        Log.d("RL", "Created Listener");
         return inflater.inflate(R.layout.fragment_camera2_basic, container, false);
     }
 
@@ -901,6 +902,7 @@ public class Camera2BasicFragment extends Fragment
 
     class listener implements RecognitionListener
     {
+        private static final String TAG = "RL";
         public void onReadyForSpeech(Bundle params)
         {
             Log.d(TAG, "onReadyForSpeech");
@@ -911,7 +913,7 @@ public class Camera2BasicFragment extends Fragment
         }
         public void onRmsChanged(float rmsdB)
         {
-            Log.d(TAG, "onRmsChanged");
+            //Log.d(TAG, "onRmsChanged");
         }
         public void onBufferReceived(byte[] buffer)
         {
@@ -923,20 +925,38 @@ public class Camera2BasicFragment extends Fragment
         }
         public void onError(int error)
         {
-            Log.d(TAG,  "error " +  error);
+            //Log.d(TAG,  "error " +  error);
 //            mText.setText("error " + error);
+            Intent i = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
+            i.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL,RecognizerIntent.LANGUAGE_MODEL_FREE_FORM);
+            i.putExtra(RecognizerIntent.EXTRA_SPEECH_INPUT_MINIMUM_LENGTH_MILLIS,30*1000);
+            i.putExtra(RecognizerIntent.EXTRA_PROMPT,"Waiting for command");
+            i.putExtra(RecognizerIntent.EXTRA_PREFER_OFFLINE,"");
+//                startActivityForResult(i, VOICE_COMMAND);
+            sr.startListening(i);
         }
         public void onResults(Bundle results)
         {
             String str = new String();
             Log.d(TAG, "onResults " + results);
             ArrayList data = results.getStringArrayList(SpeechRecognizer.RESULTS_RECOGNITION);
+            Boolean HelloDetected = false;
             for (int i = 0; i < data.size(); i++)
             {
-                Log.d(TAG, "*********Voice detected : " + data.get(i));
-                str += data.get(i);
+                if(data.get(i).toString().equals("hello")){
+                    HelloDetected = true;
+                    Log.d(TAG, "HelloDetected");
+                }
             }
-            showToast(str);
+            if(HelloDetected) takePicture();
+            showToast(data.get(0).toString());
+
+            Intent i = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
+            i.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL,RecognizerIntent.LANGUAGE_MODEL_FREE_FORM);
+            i.putExtra(RecognizerIntent.EXTRA_SPEECH_INPUT_MINIMUM_LENGTH_MILLIS,30*1000);
+            i.putExtra(RecognizerIntent.EXTRA_PROMPT,"Waiting for command");
+//                startActivityForResult(i, VOICE_COMMAND);
+            sr.startListening(i);
 //            mText.setText("results: "+String.valueOf(data.size()));
         }
         public void onPartialResults(Bundle partialResults)
@@ -950,9 +970,9 @@ public class Camera2BasicFragment extends Fragment
     }
 
 
-    @Override
+    /*@Override
     public void onActivityResult(int requestCode, int ResultCode, Intent data){
-        if(requestCode == VOICE_COMMAND /*&& ResultCode == RESULT_OK*/){
+        if(requestCode == VOICE_COMMAND *//*&& ResultCode == RESULT_OK*//*){
             ArrayList<String> results = data.getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
 //            Log.e(TAG, "********************Voice command detected : " + results.get(0));
 
@@ -967,19 +987,20 @@ public class Camera2BasicFragment extends Fragment
             }
         }
         super.onActivityResult(requestCode,ResultCode,data);
-    }
+    }*/
 
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.picture: {
-//                takePicture();
-                Intent i = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
+                takePicture();
+               /* Intent i = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
                 i.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL,RecognizerIntent.LANGUAGE_MODEL_FREE_FORM);
                 i.putExtra(RecognizerIntent.EXTRA_SPEECH_INPUT_MINIMUM_LENGTH_MILLIS,30*1000);
                 i.putExtra(RecognizerIntent.EXTRA_PROMPT,"Waiting for command");
 //                startActivityForResult(i, VOICE_COMMAND);
                 sr.startListening(i);
+                */
                 break;
             }
             case R.id.info: {

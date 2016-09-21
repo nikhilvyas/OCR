@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="armeabi-v7a,armeabi"
-    api-level="23"
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="22"
     density="xxhdpi"
     format="7"
-    timestamp="8473985166857"
-    token="5878290508832108652" >
+    timestamp="67405188477557"
+    token="3132720579686677898" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="130" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="52" />
     <task
         name="verifier"
-        duration="0" />
+        duration="6" />
 
     <artifact
-        location="/home/maulik/Android/OCR/ocr/Application/build/outputs/apk/Application-debug.apk"
+        location="/home/nikhil/OCR/others/android-Camera2Basic/Application/build/outputs/apk/Application-debug.apk"
         type="MAIN" />
 
-    <build timestamp="8473985166857" >
+    <build timestamp="67405188477557" >
         <artifact
-            location="/home/maulik/Android/OCR/ocr/Application/build/outputs/apk/Application-debug.apk"
+            location="/home/nikhil/OCR/others/android-Camera2Basic/Application/build/outputs/apk/Application-debug.apk"
             type="MAIN" />
     </build>
 

@@ -2,11 +2,81 @@
 <items version="2" >
 
     <item
-        jar="/home/maulik/Android/OCR/ocr/Application/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="/home/nikhil/OCR/others/android-Camera2Basic/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.1.1/jars/classes.jar"
         jumboMode="true"
         revision="24.0.1"
-        sha1="64afc2e37717dad8e93347496456b2fbe7246ded">
-        <dex dex="/home/maulik/Android/OCR/ocr/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_d573400bc00024dc7c26adce14c0f0f4d7669140/classes.dex" />
+        sha1="4add8aa95c9f4e9a2ad64b7e2bf08e97e28955c1">
+        <dex dex="/home/nikhil/OCR/others/android-Camera2Basic/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-24.1.1_6ab57ac431454c33f19b2d2913eeee2a41bce70e/classes.dex" />
+    </item>
+    <item
+        jar="/home/nikhil/OCR/others/android-Camera2Basic/Application/build/intermediates/exploded-aar/com.android.support/support-v13/24.1.1/jars/libs/internal_impl-24.1.1.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="ca74722504f90166103d01edcdfdb93192eb1cba">
+        <dex dex="/home/nikhil/OCR/others/android-Camera2Basic/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.1.1_1e32a785be0ee3dd3380c4b30dcdb3db0515fe23/classes.dex" />
+    </item>
+    <item
+        jar="/home/nikhil/OCR/others/android-Camera2Basic/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="/home/nikhil/OCR/others/android-Camera2Basic/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.1.1_047f74f079618cf69881090cb40128935cd44a56/classes.dex" />
+    </item>
+    <item
+        jar="/home/nikhil/OCR/others/android-Camera2Basic/Application/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="7136def7d3b35f25c51afde8a5464f11744dad87">
+        <dex dex="/home/nikhil/OCR/others/android-Camera2Basic/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_caccde7fee9c44ca837eaea1af37ccadcb3d920b/classes.dex" />
+    </item>
+    <item
+        jar="/home/nikhil/OCR/others/android-Camera2Basic/Application/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
+        <dex dex="/home/nikhil/OCR/others/android-Camera2Basic/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.1.1_3e1766b26f8a59839552d8758c6e36e4567ca43a/classes.dex" />
+    </item>
+    <item
+        jar="/home/nikhil/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/24.1.1/3af19f153122737b372622fa6c81dd11a1c6b999/support-annotations-24.1.1.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="/home/nikhil/OCR/others/android-Camera2Basic/Application/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.1.1_2e4a464cd2f928ece13d7f5ff84b7f8ffcb133af/classes.dex" />
+    </item>
+    <item
+        jar="/home/nikhil/OCR/others/android-Camera2Basic/Application/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="f0a35e1d925f59d4d30dc7bb13ba60b6bec9fd6e">
+        <dex dex="/home/nikhil/OCR/others/android-Camera2Basic/Application/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_93da68c8fe9ce013ca1f132a53eb6e73cffbfb39/classes.dex" />
+    </item>
+    <item
+        jar="/home/nikhil/OCR/others/android-Camera2Basic/Application/build/intermediates/exploded-aar/com.android.support/support-v13/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="327f68d58bb39fb8b585150596b313541f8fdb87">
+        <dex dex="/home/nikhil/OCR/others/android-Camera2Basic/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v13-24.1.1_2980d359dc940c7b6a7f4cce028d54e133892a98/classes.dex" />
+    </item>
+    <item
+        jar="/home/nikhil/OCR/others/android-Camera2Basic/Application/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="/home/nikhil/OCR/others/android-Camera2Basic/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.1.1_a372a7e2e29be1dcd796805226096ddd38367e9e/classes.dex" />
+    </item>
+    <item
+        jar="/home/nikhil/OCR/others/android-Camera2Basic/Application/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/libs/internal_impl-24.1.1.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="/home/nikhil/OCR/others/android-Camera2Basic/Application/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.1.1_c50d078e0a8f9b196336ccef5411840c352bbba5/classes.dex" />
+    </item>
+    <item
+        jar="/home/nikhil/OCR/others/android-Camera2Basic/Application/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.1"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="/home/nikhil/OCR/others/android-Camera2Basic/Application/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.1.1_c6275108f1a8ffea139d526a9eb3c4c9e2083c2a/classes.dex" />
     </item>
 
 </items>
